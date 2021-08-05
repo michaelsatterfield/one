@@ -74,6 +74,9 @@ const App: () => Node = () => {
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
+          <Section>
+            <Text>This a new Native App by Michael Satterfield</Text>
+          </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
