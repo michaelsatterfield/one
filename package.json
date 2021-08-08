@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "android-dev": "adb reverse tcp:8081 tcp:8081 && react-native run-android",
+    "android-dev": "adb reverse tcp:8081 && react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
@@ -13,7 +13,9 @@
   "dependencies": {
     "react": "17.0.1",
     "react-devtools": "^4.14.0",
-    "react-native": "0.64.2"
+    "react-native": "0.64.2",
+    "react-native-cli": "^2.0.1",
+    "react-native-macos": "^0.63.0-0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",

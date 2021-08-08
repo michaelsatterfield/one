@@ -9,6 +9,7 @@
 import React from 'react';
 import type {Node} from 'react';
 import {
+  Button,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -76,6 +77,9 @@ const App: () => Node = () => {
           </Section>
           <Section>
             <Text>This a new Native App by Michael Satterfield</Text>
+            <Button
+                title="Learn More"
+                color="#841584"/>
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
