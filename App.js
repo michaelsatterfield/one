@@ -10,13 +10,14 @@ import React from 'react';
 import type {Node} from 'react';
 import {
   Button,
+  Animated,
   SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
   Text,
   useColorScheme,
-  View,
+  View, Alert, TextInput,
 } from 'react-native';
 
 import {
@@ -40,6 +41,7 @@ const Section = ({children, title}): Node => {
         ]}>
         {title}
       </Text>
+      <TextInput>what is your name?</TextInput>
       <Text
         style={[
           styles.sectionDescription,
